@@ -35,6 +35,9 @@ body::-webkit-scrollbar-thumb {
     --global-radius: 8px;
     --color-neutral-100: #f1f2f4;
     --color-icon-low-emphasis: #9e9fb1;
+    --color-icon-high-emphasis: #3f4064;
+    --global-radius: 8px;
+    --color-neutral-200: #e0e0e6;
 }
 
 body {

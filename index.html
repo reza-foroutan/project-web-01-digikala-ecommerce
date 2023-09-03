@@ -11,6 +11,8 @@
       <!-- make website -->
       <svg style="display: none;">
         <symbol id="searchSearch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" clip-rule="evenodd"></path></symbol>
+        <symbol id="registerationSignIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z" clip-rule="evenodd"></path></symbol>
+        <symbol id="cartOff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path></symbol>
       </svg>
       <!-- initialize wrapper -->
       <div class="wrapper">
@@ -56,6 +58,42 @@
               </div>
             </div>
             <!-- end search box -->
+            <!-- initialize login cart box -->
+            <div class="login-cart-box">
+              <!-- initialize login box -->
+              <div class="login-box">
+                <a href="/users/login/?backUrl=/">
+                  <div>
+                    <span>
+                      <svg><use xlink:href="#registerationSignIn"></use></svg>
+                    </span>
+                    <span>ورود | ثبت‌نام</span>
+                  </div>
+                </a>
+              </div>
+              <!-- end login box -->
+              <!-- initialize line box -->
+              <div class="line-box">
+                <div class="line"></div>
+              </div>
+              <!-- end line box -->
+              <!-- initialize cart-box -->
+              <div class="cart-box">
+                <div class="cart">
+                  <a href="/checkout/cart/">
+                    <div>
+                      <span>
+                        <svg>
+                          <use xlink:href="#cartOff"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- end cart-box -->
+            </div>
+            <!-- end login cart box -->
           </div>
           <!-- end header middle -->
         </header>
