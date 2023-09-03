@@ -1,0 +1,52 @@
+div.story {
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-neutral-000);
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    margin-top: 180px;
+}
+div.story > div.story-carousel {
+    width: 80%;
+    height: 150px;
+    background-color: var(--color-neutral-000);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+div.story > div.story-carousel > div.story-items {
+    display: inline-block;
+    height: inherit;
+    margin: 0 10px;
+    padding: 25px;
+}
+div.story > div.story-carousel > div.story-items > a {
+    display: block;
+    text-decoration: none;
+}
+div.story > div.story-carousel > div.story-items > a > div.story-items-images {}
+div.story > div.story-carousel > div.story-items > a > div.story-items-images > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    outline: 3px solid rgb(237, 27, 52);
+    outline-offset: 5px;
+}
+div.story > div.story-carousel > div.story-items > a > div.story-items-images-gray > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    outline: 3px solid #ddd;
+    outline-offset: 5px;
+}
+div.story > div.story-carousel > div.story-items > a > div.story-items-info {}
+div.story > div.story-carousel > div.story-items > a > div.story-items-info > h4 {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5em;
+}
