@@ -38,5 +38,50 @@ header > div.header-top > a > div > picture > img {
 /* end header top */
 
 
+/* initialize header middle */
+header > div.header-middle {
+    width: 100%;
+    height: 68px;
+    box-sizing: border-box;
+    background-color: var(--color-neutral-000);
+}
+/* initialize logo box */
+header > div.header-middle > div.logo-box {
+    width: 10%;
+    height: 68px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: blue;
+}
+header > div.header-middle > div.logo-box > div.logo {
+    width: 100%;
+    height: 34px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    box-sizing: border-box;
+    line-height: 34px;
+    background-color: darkgray;
+}
+header > div.header-middle > div.logo-box > div.logo > a {
+    display: block;
+    text-decoration: none;
+    line-height: 34px;
+}
+header > div.header-middle > div.logo-box > div.logo > a > div {
+    padding-top: 5px;
+}
+header > div.header-middle > div.logo-box > div.logo > a > div > img {
+    height: 34px;
+    object-fit: cover;
+    object-position: center center;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+/* end logo box */
+/* end header middle */
+
 
 /* end header */
