@@ -31,6 +31,10 @@ body::-webkit-scrollbar-thumb {
     --direction: rtl;
     --font-family: "IRANSansWebFaNum-Medium",sans-serif;;
     --color-neutral-000: #fff;
+    --spacing-base: 4px;
+    --global-radius: 8px;
+    --color-neutral-100: #f1f2f4;
+    --color-icon-low-emphasis: #9e9fb1;
 }
 
 body {
