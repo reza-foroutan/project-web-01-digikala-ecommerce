@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
 
 :root {
     --direction: rtl;
-    --font-family: "IRANSansWebFaNum-Medium",sans-serif;;
+    --font-family: "iranyekan",sans-serif;;
     --color-neutral-000: #fff;
     --spacing-base: 4px;
     --global-radius: 8px;

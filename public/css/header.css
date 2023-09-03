@@ -288,6 +288,7 @@ header > div.header-bottom > nav > div.category > div.items:nth-of-type(1) > a {
     transition: 300ms;
     text-align: center;
     white-space: nowrap;
+    font-weight: 700;
     cursor: pointer;
     color: var(--color-neutral-700);
 }

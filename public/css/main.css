@@ -1,5 +1,6 @@
 @import url("../css/settings.css");
-@import url("../css/IRANSansWebFaNum-Medium.css");
+/* @import url("../css/font-face-IRANSansWebFaNum-Medium.css"); */
+@import url("../css/font-face-IRANYekan.css");
 @import url("../css/header.css");
 @import url("../css/story.css");
 @import url("../css/slider.css");

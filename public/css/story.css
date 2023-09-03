@@ -19,7 +19,7 @@ div.story > div.story-carousel > div.story-items {
     display: inline-block;
     height: inherit;
     margin: 0 10px;
-    padding: 25px;
+    padding: 30px;
 }
 div.story > div.story-carousel > div.story-items > a {
     display: block;
