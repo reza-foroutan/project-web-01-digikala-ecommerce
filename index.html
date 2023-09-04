@@ -602,30 +602,30 @@
     <script src="./swiper/swiper-bundle.min.mjs"></script>
     <script>
       // Initialize Swiper
-      // var swiper = new Swiper(".my-swiper-slider", {
-      //   slidesPerView: 1,
-      //   spaceBetween: 0,
-      //   loop: true,
-      //   centeredSlides: true,
-      //   autoplay: {
-      //   delay: 9500,
-      //   disableOnInteraction: false,
-      //   },
-      //   navigation: {
-      //     nextEl: ".swiper-button-next",
-      //     prevEl: ".swiper-button-prev",
-      //   },
-      // });
+      var swiper = new Swiper(".my-swiper-slider", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+        delay: 9500,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
       // End Swiper
 
       // Initialize Swiper amazing
       var swiper = new Swiper(".my-swiper-amazing", {
       slidesPerView: "auto",
       spaceBetween: 3,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
       navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
