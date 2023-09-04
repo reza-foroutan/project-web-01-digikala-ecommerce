@@ -37,3 +37,18 @@ div.slider > div.slider-carousel .swiper {
     margin-left: auto;
     margin-right: auto;
 }
+div.slider > div.slider-carousel .swiper a {
+    display: block;
+    text-decoration: none;
+}
+div.slider > div.slider-carousel .swiper a > div {
+    border-radius: 0px;
+}
+div.slider > div.slider-carousel .swiper a > div > picture {}
+div.slider > div.slider-carousel .swiper a > div > picture > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 0;
+}

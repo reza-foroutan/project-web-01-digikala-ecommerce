@@ -1,0 +1,20 @@
+div.amazing {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: var(--color-neutral-000);
+    text-align: center;
+    position: relative;
+    margin-top: calc(6 * var(--spacing-base));
+}
+div.amazing > div.amazing-carousel {
+    width: 90%;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(to top,var(--color-primary-500),var(--color-primary-700));
+    margin: 0 auto;
+    padding: 20px 20px 20px 0;
+    border-radius: var(--large-radius);
+}

@@ -1,0 +1,67 @@
+div.offer {
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-neutral-000);
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    margin-top: calc(6 * var(--spacing-base));
+}
+
+div.offer > div.offer-carousel {
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-neutral-000);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+div.offer > div.offer-carousel > div.offer-items {
+    display: inline-block;
+    height: inherit;
+    margin: 0 20px;
+    padding: 0 30px;
+    vertical-align: top;
+}
+div.offer > div.offer-carousel > div.offer-items > a {
+    display: block;
+    text-decoration: none;
+}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-images {}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-images > img {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    object-fit: cover;
+}
+
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-info {}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-info > h4 {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-neutral-700);
+    margin-top: 0.5em;
+    text-align: center;
+}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-info > h4.margin-top {
+    margin-top: 25px;
+}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-images-mores {
+    width: 52px;
+    height: 52px;
+    background-color: #ddd;
+    border-radius: 50%;
+    line-height: 52px;
+    display: block;
+}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-images-mores > span {}
+div.offer > div.offer-carousel > div.offer-items > a > div.offer-items-images-mores > span > svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--color-icon-low-emphasis);
+    vertical-align: middle;
+}

@@ -29,10 +29,9 @@ body::-webkit-scrollbar-thumb {
 
 :root {
     --direction: rtl;
-    --font-family: "iranyekan",sans-serif;;
+    --font-family: "iranyekan",sans-serif;
     --color-neutral-000: #fff;
     --spacing-base: 4px;
-    --global-radius: 8px;
     --color-neutral-100: #f1f2f4;
     --color-icon-low-emphasis: #9e9fb1;
     --color-icon-high-emphasis: #3f4064;
@@ -40,6 +39,9 @@ body::-webkit-scrollbar-thumb {
     --color-neutral-200: #e0e0e6;
     --color-neutral-700: #3f4064;
     --color-neutral-400: #9e9fb1;
+    --large-radius: 16px;
+    --color-primary-500: #ef4056;
+    --color-primary-700: #ef394e;
 }
 
 body {
