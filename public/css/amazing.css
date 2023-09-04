@@ -40,6 +40,12 @@ div.amazing > div.amazing-carousel .swiper-slide {
     width: 182px;
     min-width: 182px;
     max-width: 182px;
+    position: relative;
+    padding-right: calc(0 * var(--spacing-base));
+    padding-left: calc(1 * var(--spacing-base));
+    margin-left: calc(0 * var(--spacing-base));
+    cursor: pointer;
+    background-color: var(--color-neutral-000);
 }
 
 div.amazing > div.amazing-carousel .swiper-slide:nth-of-type(1){
@@ -59,6 +65,7 @@ div.amazing > div.amazing-carousel a > div.imageWow {
     margin-bottom: 10px;
     width: 150px;
     height: 150px;
+    position: relative;
 }
 div.amazing > div.amazing-carousel a > div.imageWow > picture {}
 div.amazing > div.amazing-carousel a > div.imageWow > picture > img {
@@ -83,7 +90,7 @@ div.amazing > div.amazing-carousel div.price > div.left {
     line-height: 2.15;
     font-family: var(--font-family);
     text-align: left;
-    width: 56%;
+    width: 57%;
     color: var(--color-neutral-700);
 }
 div.amazing > div.amazing-carousel div.price > div.left > span {}
@@ -98,7 +105,7 @@ div.amazing > div.amazing-carousel div.price > div.right {
     font-family: var(--font-family);
     text-align: right;
     font-weight: bold;
-    width: 40%;
+    width: 39%;
 }
 div.amazing > div.amazing-carousel div.price > div.right > span {
     padding-right: calc(1 * var(--spacing-base));
@@ -128,4 +135,37 @@ div.amazing > div.amazing-carousel div.delete-amazing-offer {
     text-decoration: line-through;
     color: var(--color-neutral-300);
     margin-top: -6px;
+}
+div.amazing > div.amazing-carousel div.line-amazing-offer {
+    border-radius: 9999px;
+    height: 4px;
+    background-color: var(--color-neutral-100);
+    position: relative;
+}
+div.amazing > div.amazing-carousel div.line-amazing-offer > div {
+    width: 42%;
+    height: inherit;
+    border-radius: 9999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--color-primary-700);
+    cursor: pointer;
+}
+div.amazing > div.amazing-carousel div.mobile-amazing-offer {
+    position: absolute;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    cursor: pointer;
+    top: 10px;
+    right: 20px;
+    z-index: 1;
+}
+div.amazing > div.amazing-carousel div.mobile-amazing-offer > span {}
+div.amazing > div.amazing-carousel div.mobile-amazing-offer > span > svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--color-icon-primary);
+    vertical-align: middle;
 }
