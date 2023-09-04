@@ -46,6 +46,7 @@ body::-webkit-scrollbar-thumb {
     --medium-radius: 8px;
     --color-white: #fff;
     --color-icon-primary: #ef4056;
+    --color-icon-white: #fff;
 }
 
 body {
