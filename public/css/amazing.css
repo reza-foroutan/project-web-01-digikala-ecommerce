@@ -18,3 +18,114 @@ div.amazing > div.amazing-carousel {
     padding: 20px 20px 20px 0;
     border-radius: var(--large-radius);
 }
+div.amazing > div.amazing-carousel .swiper {
+    width: 100%;
+    height: 100%;
+}
+div.amazing > div.amazing-carousel .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.amazing > div.amazing-carousel .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.amazing > div.amazing-carousel .swiper-slide {
+    width: 182px;
+    min-width: 182px;
+    max-width: 182px;
+}
+
+div.amazing > div.amazing-carousel .swiper-slide:nth-of-type(1){
+    border-radius: 0 10px 10px 0;
+    background-color: transparent;
+}
+div.amazing > div.amazing-carousel .swiper-slide:nth-of-type(2) {
+    border-top-right-radius: var(--medium-radius);
+    border-bottom-right-radius: var(--medium-radius);
+}
+div.amazing > div.amazing-carousel a {
+    display: block;
+    text-decoration: none;
+}
+div.amazing > div.amazing-carousel a > div.imageWow {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+div.amazing > div.amazing-carousel a > div.imageWow > picture {}
+div.amazing > div.amazing-carousel a > div.imageWow > picture > img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.change-amazing-offer {
+    flex-flow: column wrap;
+}
+div.amazing > div.amazing-carousel div.price {
+    width: 100%;
+}
+
+div.amazing > div.amazing-carousel div.price > div.left,div.amazing > div.amazing-carousel div.price > div.right {
+    display: inline-block;
+}
+
+div.amazing > div.amazing-carousel div.price > div.left {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.15;
+    font-family: var(--font-family);
+    text-align: left;
+    width: 56%;
+    color: var(--color-neutral-700);
+}
+div.amazing > div.amazing-carousel div.price > div.left > span {}
+div.amazing > div.amazing-carousel div.price > div.left > span > svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--color-icon-high-emphasis);
+    vertical-align: middle;
+}
+div.amazing > div.amazing-carousel div.price > div.right {
+    font-size: 12px;
+    font-family: var(--font-family);
+    text-align: right;
+    font-weight: bold;
+    width: 40%;
+}
+div.amazing > div.amazing-carousel div.price > div.right > span {
+    padding-right: calc(1 * var(--spacing-base));
+    padding-left: calc(1 * var(--spacing-base));
+    border-radius: var(--large-radius);
+    color: var(--color-white);
+    font-size: 12px;
+    font-weight: 700;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: var(--color-primary-700);
+    display: block;
+    height: 20px;
+    width: 34px;
+    line-height: 20px;
+    text-align: center;
+}
+
+div.amazing > div.amazing-carousel div.delete-amazing-offer {
+    width: 100%;
+    text-align: left;
+    padding-left: calc(6 * var(--spacing-base));
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.17;
+    text-decoration: line-through;
+    color: var(--color-neutral-300);
+    margin-top: -6px;
+}

@@ -42,6 +42,9 @@ body::-webkit-scrollbar-thumb {
     --large-radius: 16px;
     --color-primary-500: #ef4056;
     --color-primary-700: #ef394e;
+    --color-neutral-300: #c3c3ce;
+    --medium-radius: 8px;
+    --color-white: #fff;
 }
 
 body {
