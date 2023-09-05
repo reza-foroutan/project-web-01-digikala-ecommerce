@@ -1,0 +1,20 @@
+div.four-banners {
+    width: 100%;
+    /* padding: 10px 0; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: var(--color-neutral-000);
+    text-align: center;
+    position: relative;
+    /* margin-top: calc(2 * var(--spacing-base)); */
+}
+div.four-banners > div.four-banners-carousel {
+    width: 90%;
+    height: 235px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: crimson;
+}

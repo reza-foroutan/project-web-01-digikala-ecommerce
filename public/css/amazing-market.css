@@ -1,0 +1,191 @@
+div.amazing-market {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: var(--color-neutral-000);
+    text-align: center;
+    position: relative;
+    margin-top: calc(2 * var(--spacing-base));
+}
+div.amazing-market > div.amazing-market-carousel {
+    width: 90%;
+    height: 110px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    /* padding: 20px 20px 20px 0; */
+    background: url("../images/amazing-super-market/freshPattern.svg") left center no-repeat rgba(236, 236, 236, 0.856);
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing {
+    width: 42%;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a {
+    display: block;
+    text-decoration: none;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.box {
+    width: 20%;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -36px;
+    line-height: 180px;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.box div {
+    width: 66px;
+    height: 62px;
+    margin: 0 auto;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.box div > picture {}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.box div > picture > img {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.bonner {
+     width: 54%;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    line-height: 143px;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.bonner > div {
+    width: 250px;
+    height: 28px;
+    margin-right: calc(5 * var(--spacing-base));
+    margin-left: calc(5 * var(--spacing-base));
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.info {
+     width: 32%;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    line-height: 120px;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.info > div {
+    margin-right: -72px;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-boxing > a > div.info > div > p {
+    font-size: 14px;
+    padding: 3px 10px;
+    font-family: var(--font-family);
+    background-color: var(--color-fresh-700);
+    border-radius: 25px;
+    color: var(--color-white);
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-weight: 700;
+    line-height: 2.15;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products {
+    width: 52%;
+    height: 110px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product {
+    width: 75%;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items > a {}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items > a > div {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items > a > div > picture {}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items > a > div > picture > img {
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    border-radius: 50%;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items > a > div.offer-azmazing-market {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: var(--color-white);
+    padding-right: calc(1 * var(--spacing-base));
+    padding-left: calc(1 * var(--spacing-base));
+    position: absolute;
+    border-radius: var(--large-radius);
+    background-color: var(--color-primary-700);
+    height: 20px;
+    font-family: var(--font-family);
+    width: 34px;
+    top: 78%;
+    right: -4%;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product > div.items > a > div.offer-azmazing-market > span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: var(--color-white);
+    font-family: var(--font-family);
+}
+
+
+
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product-more {
+    width: 25%;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    padding-top: 42px;
+    box-sizing: border-box;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product-more > a {}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product-more > a > div {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    padding-right: calc(5 * var(--spacing-base));
+    padding-left: calc(5 * var(--spacing-base));
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    border-radius: 9999px;
+    color: var(--color-fresh-700);
+    background-color: var(--color-neutral-000);
+    width: 144px;
+    height: 51px;
+    margin-right: 15px;
+}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product-more > a > div > span {}
+div.amazing-market > div.amazing-market-carousel > div.amazing-market-carousel-products > div.product-more > a > div > span > svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--color-fresh-700);
+    vertical-align: middle;
+}
