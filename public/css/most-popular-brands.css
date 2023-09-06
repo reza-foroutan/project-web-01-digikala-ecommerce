@@ -6,7 +6,10 @@ div.most-popular-brands {
     background-color: var(--color-neutral-000);
     text-align: center;
     position: relative;
-    margin-top: calc(2 * var(--spacing-base));
+    margin-top: calc(30 * var(--spacing-base));
+    border-radius: var(--large-radius);
+    padding-top: calc(6 * var(--spacing-base));
+    padding-bottom: calc(6 * var(--spacing-base));
 }
 div.most-popular-brands > div.most-popular-brands-carousel {
     width: 90%;

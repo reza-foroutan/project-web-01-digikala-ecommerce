@@ -1,20 +1,78 @@
 div.digikala-offer {
-    width: 100%;
-    padding: 10px 0;
-    box-sizing: border-box;
-    margin: 0 auto;
-    background-color: var(--color-neutral-000);
-    text-align: center;
-    position: relative;
-    margin-top: calc(6 * var(--spacing-base));
-}
-div.digikala-offer > div.digikala-offer-carousel {
     width: 90%;
-    height: 440px;
-    box-sizing: border-box;
-    text-align: center;
+    height: 400px;
     margin: 0 auto;
-    padding: 20px 20px 20px 0;
-    border-radius: var(--large-radius);
-}
-div.digikala-offer > div.digikala-offer-carousel > div.digikala-offer-boxing {}
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  div.sCap {
+    width: 100%;
+    height: 44px;
+    padding-top: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  div.sCap > h2 {
+    font-family: var(--font-family);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 2.1;
+  }
+  div.sContent {
+    width: 100%;
+    height: 310px;
+    border: 1px solid #e0e0e6;
+    border-radius: 16px;
+    margin-top: 30px;
+  }
+  div.sContent > div.sRow {
+    width: inherit;
+    height: 155px;
+    text-align: center;
+  }
+  div.sContent > div.sRow:nth-of-type(1) {
+    border-bottom: 1px solid #f1f2f4;
+  }
+  div.sContent > div.sRow > div {
+    width: calc(100% / 7);
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border-left: 1px solid #f1f2f4;
+  }
+  div.sContent > div.sRow > div:nth-last-of-type() {
+    border-left: unset;
+  }
+  div.sContent > div.sRow > div:nth-of-type(1) {
+    margin-right: 0;
+  }
+  div.sContent > div.sRow > div > a {
+    text-decoration: none;
+  }
+  div.sContent > div.sRow > div > a > div {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #f1f2f4;
+  }
+  div.sContent > div.sRow > div > a > div > img {
+    width: 60px;
+    height: 60px;
+  }
+  div.sContent > div.sRow > div > a > h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.15;
+    color: var(--color-neutral-900);
+    padding: 10px 0 20px 0;
+  }
+  
