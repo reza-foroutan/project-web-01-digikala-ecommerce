@@ -79,3 +79,12 @@ div.most-popular-brands > div.most-popular-brands-carousel > div.popular-brands-
     text-decoration: none;
 }
 div.most-popular-brands > div.most-popular-brands-carousel > div.popular-brands-slider .swiper-slide a > div {}
+div.most-popular-brands > div.most-popular-brands-carousel > div.popular-brands-slider .swiper-slide a > div > img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}

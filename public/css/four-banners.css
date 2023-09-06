@@ -1,39 +1,24 @@
 div.four-banners {
     width: 100%;
-    height: 235px;
-    padding: 10px 0;
-    box-sizing: border-box;
-    background-color: var(--color-neutral-000);
+    height: 350px;
     text-align: center;
-}
-div.four-banners > div.four-banners-carousel {
-    width: 90%;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    border-radius: 16px;
     background-color: crimson;
 }
-div.four-banners > div.four-banners-carousel > div.items {
-    width: auto;
-    height: auto;
+div.four-banners > div.four-banners-items {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-left: 43px;
     display: inline-block;
-    vertical-align: top;
+    background-color: yellowgreen;
 }
-div.four-banners > div.four-banners-carousel > div.items > a {
-    display: block;
-    width: calc((100% - 48px) / 4);
-    margin-right: 0px;
-    margin-top: 0px;
-    position: relative;
+div.four-banners > div.four-banners-items > a {
+    text-decoration: none;
+    display: inline-block;
 }
-div.four-banners > div.four-banners-carousel > div.items > a > div {
+div.four-banners > div.four-banners-items > a > img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
     border-radius: 16px;
-}
-div.four-banners > div.four-banners-carousel > div.items > a > div > picture {}
-div.four-banners > div.four-banners-carousel > div.items > a > div > picture > img {
-    position: absolute;
-    left: 0;
-    top: 0;
 }
