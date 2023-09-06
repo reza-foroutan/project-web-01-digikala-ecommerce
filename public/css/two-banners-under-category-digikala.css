@@ -1,0 +1,47 @@
+div.two-banners {
+    width: 90%;
+    height: 260px;
+    box-sizing: border-box;
+    background-color: var(--color-neutral-000);
+    margin: 0 auto;
+}
+div.two-banners > div.one-cloumn {
+    width: 50%;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+}
+div.two-banners > div.one-cloumn > a {
+    display: block;
+}
+div.two-banners > div.one-cloumn > a > div {}
+div.two-banners > div.one-cloumn > a > div > picture {}
+div.two-banners > div.one-cloumn > a > div > picture > img {
+    width: 664px;
+    border-radius: 16px;
+}
+
+
+div.two-banners > div.second-cloumn {
+    width: 50%;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: -4px;
+}
+div.two-banners > div.second-cloumn > a {
+
+}
+div.two-banners > div.second-cloumn > a {
+    display: block;
+}
+div.two-banners > div.second-cloumn > a > div {}
+div.two-banners > div.second-cloumn > a > div > picture {}
+div.two-banners > div.second-cloumn > a > div > picture > img  {
+    width: 664px;
+    border-radius: 16px;
+}
