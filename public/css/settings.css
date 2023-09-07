@@ -55,6 +55,8 @@ body::-webkit-scrollbar-thumb {
     --color-neutral-800: #23254e;
     --color-neutral-500: #767790;
     --color-button-secondary: #19bfd3;
+    --color-plus-700: #941b80;
+    --color-plus-500: #b12ba4;
 }
 
 body {
@@ -78,3 +80,4 @@ a {
     text-decoration: none;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+

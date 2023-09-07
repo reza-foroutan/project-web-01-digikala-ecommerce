@@ -113,10 +113,13 @@ div.visit-according > div.visit-according-carousel > div.visit {
     text-align: center;
     cursor: pointer;
   }
-  div.visit-according > div.visit-according-carousel >  div.visit > div.col > div.seeAll > a > i.fa-chevron-left {
+  div.visit-according > div.visit-according-carousel >  div.visit > div.col > div.seeAll > a > svg {
     padding-right: 5px;
     font-weight: bold;
     font-size: 9px;
-    color: #19bfd3;
+    width: 18px;
+    height: 18px;
+    fill: var(--color-icon-secondary);
+    vertical-align: middle;
   }
   
