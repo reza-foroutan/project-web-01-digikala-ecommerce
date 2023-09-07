@@ -20,3 +20,18 @@ div.adservice-banners-full > div.adservice-banners-full-carousel {
     border-radius: var(--large-radius);
     background-color: crimson;
 }
+div.adservice-banners-full > div.adservice-banners-full-carousel > a {
+    display: block;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+div.adservice-banners-full > div.adservice-banners-full-carousel > a > div {
+    border-radius: 16px;
+}
+div.adservice-banners-full > div.adservice-banners-full-carousel > a > div > picture {}
+div.adservice-banners-full > div.adservice-banners-full-carousel > a > div > picture > img {
+    object-fit: cover;
+    border-radius: 16px;
+    width: 100%;
+}
