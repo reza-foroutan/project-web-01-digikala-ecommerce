@@ -1,0 +1,22 @@
+div.adservice-banners-full {
+    width: 100%;
+    /* padding: 10px 0; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: var(--color-neutral-000);
+    text-align: center;
+    position: relative;
+    margin-top: calc(6 * var(--spacing-base));
+    margin-right: calc(0 * var(--spacing-base));
+    margin-left: calc(0 * var(--spacing-base));
+}
+div.adservice-banners-full > div.adservice-banners-full-carousel {
+    width: 90%;
+    height: 160px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 20px 20px 20px 0; */
+    border-radius: var(--large-radius);
+    background-color: crimson;
+}

@@ -1,0 +1,11 @@
+div.discount-auction-products {
+    width: 100%;
+    /* padding: 10px 0; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: var(--color-neutral-000);
+    text-align: center;
+    position: relative;
+    margin-top: calc(6 * var(--spacing-base));
+}
+/* div.discount-auction-products > div.div.discount-auction-products */
