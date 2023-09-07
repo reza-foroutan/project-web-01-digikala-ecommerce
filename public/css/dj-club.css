@@ -1,0 +1,98 @@
+div.dj-club {
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+}
+div.dj-club > div.dj-club-carousel {
+    width: 90%;
+    height: 90px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: var(--large-radius);
+    background: linear-gradient(76.02deg,#35a6c8 33.32%,#007295 71.55%),radial-gradient(21.29% 87.33% at 50% 50.67%,#7cf2f6 0,#35a6c8 100%);
+    padding-right: calc(4 * var(--spacing-base));
+    padding-left: calc(4 * var(--spacing-base));
+    margin-top: calc(2 * var(--spacing-base));
+}
+div.dj-club > div.dj-club-carousel > div.right {
+    width: 28%;
+    height: 90px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+div.dj-club > div.dj-club-carousel > div.right > a {
+    display: block;
+}
+div.dj-club > div.dj-club-carousel > div.right > a > div {
+    width: 119px;
+    height: 33px;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    border-radius: var(--large-radius);
+    margin: 25px 30px;
+}
+div.dj-club > div.dj-club-carousel > div.right > a > div > img {
+    object-fit: cover;
+    width: 119px;
+    height: 33px;
+}
+div.dj-club > div.dj-club-carousel > div.left {
+    width: 72%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    background-color: red;
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items {
+    width: 33%;
+    height: 90%;
+    display: inline-block;
+    background-color: var(--color-neutral-000);
+    border-radius: 0 8px 8px 0;
+    box-sizing: border-box;
+    padding: 1px;
+    margin-top: 5px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a {
+    text-decoration: none;
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.text {
+    box-sizing: border-box;
+    margin-right: 15px;
+    line-height: 45px;
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.text > div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px;
+    margin-top: calc(4 * var(--spacing-base));
+
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.text > div > span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    margin-right: calc(2 * var(--spacing-base));
+    color: var(--color-neutral-900);
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.text > div > span > svg {
+    width: 20px; height: 20px; fill: var(--color-blue-700);
+    vertical-align: middle;
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.img {
+    margin-right: 148px;
+    margin-top: -63px;
+}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.img > picture {}
+div.dj-club > div.dj-club-carousel > div.left > div.items > a > div.img > picture > img {
+    width: 168px;
+    height: 80px;
+    object-fit: cover;
+}

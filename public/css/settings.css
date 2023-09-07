@@ -57,6 +57,7 @@ body::-webkit-scrollbar-thumb {
     --color-button-secondary: #19bfd3;
     --color-plus-700: #941b80;
     --color-plus-500: #b12ba4;
+    --color-blue-700: #00bfd6;
 }
 
 body {
