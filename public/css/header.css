@@ -115,7 +115,7 @@ header > div.header-middle > div.search-box > div.search > input[type= "search"]
     overflow: hidden;
     text-overflow: ellipsis;
     border-radius: var(--global-radius);
-    padding-right: calc(6 * var(--spacing-base));
+    padding-right: calc(10 * var(--spacing-base));
     padding-left: calc(6 * var(--spacing-base));
 }
 header > div.header-middle > div.search-box > div.search > input[type= "search"]:focus{
@@ -125,6 +125,7 @@ header > div.header-middle > div.search-box > div.search > input[type= "search"]
     font-size: 12px;
     padding-right: calc(6 * var(--spacing-base));
     padding-left: calc(6 * var(--spacing-base));
+    caret-color: var(--color-secondary-700);
 }
 header > div.header-middle > div.search-box > div.search > input[type= "search"]:focus::placeholder{
     color: whitesmoke;

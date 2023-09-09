@@ -1,0 +1,914 @@
+footer {
+    width: 100%;
+    height: 1160px;
+    margin-top: calc(20 * var(--spacing-base));
+    padding-top: calc(8 * var(--spacing-base));
+    border-top: 1px solid var(--color-neutral-100);
+    background-color: var(--color-neutral-000);
+}
+footer > div.footer-carousel {
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-01 {
+    width: 100%;
+    height: 40px;
+}
+footer > div.footer-carousel > div.footer-section-01 > div.logo {
+    width: 85%;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-01 > div.logo > div {
+    height: 30px;
+    margin-right: calc(4 * var(--spacing-base));
+    
+}
+footer > div.footer-carousel > div.footer-section-01 > div.logo > div > img {
+    height: 30px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+}
+footer > div.footer-carousel > div.footer-section-01 > div.top {
+    width: 15%;
+    height: 40px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-01 > div.top > a {
+    display: block;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: calc(4 * var(--spacing-base));
+    padding-left: calc(4 * var(--spacing-base));
+    border-radius: var(--global-radius);
+    border: 1px solid var(--color-neutral-200);
+    color: var(--color-neutral-400);
+    height: 100%;
+    font-family: var(--font-family);
+    cursor: pointer;
+    width: 136px;
+}
+footer > div.footer-carousel > div.footer-section-01 > div.top > a > span {}
+footer > div.footer-carousel > div.footer-section-01 > div.top > a > span > svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-icon-low-emphasis);
+    vertical-align: middle;
+}
+
+
+
+footer > div.footer-carousel > div.footer-section-02 {
+    width: 100%;
+    height: 26px;
+    margin-top: 12px;
+}
+footer > div.footer-carousel > div.footer-section-02 > p {
+    font-family: var(--font-family);
+    font-size: 11px;
+    color: var(--color-neutral-700);
+    display: inline-block;
+    margin-right: calc(4 * var(--spacing-base));
+}
+footer > div.footer-carousel > div.footer-section-02 >  div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    text-align: center;
+    padding-right: calc(5 * var(--spacing-base));
+    padding-left: calc(5 * var(--spacing-base));
+}
+footer > div.footer-carousel > div.footer-section-02 >  div > i {
+    color: var(--color-neutral-400);
+    font-size: small;
+}
+
+footer > div.footer-carousel > div.footer-section-02 > p {
+    font-family: var(--font-family);
+    color: var(--color-neutral-700);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.17;
+}
+
+
+footer > div.footer-carousel >  div.footer-section-03 {
+    width: 100%;
+    height: 105px;
+    margin-top: calc(8 * var(--spacing-base));
+    margin-bottom: calc(8 * var(--spacing-base));
+    margin-right: calc(4 * var(--spacing-base));
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.delivery {
+    width: 258px;
+    height: 105px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.delivery > a {
+    display: block;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.delivery > a > div {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.delivery > a > div > img {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.delivery > a > p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: var(--color-neutral-700);
+    text-align: center;
+}
+
+
+
+
+
+footer > div.footer-carousel >  div.footer-section-03 > div.express {
+    width: 258px;
+    height: 105px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+
+footer > div.footer-carousel >  div.footer-section-03 > div.express > a {
+    display: block;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.express > a > div {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.express > a > div > img {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.express > a > p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: var(--color-neutral-700);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer > div.footer-carousel >  div.footer-section-03 > div.payment {
+    width: 258px;
+    height: 105px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+
+footer > div.footer-carousel >  div.footer-section-03 > div.payment > a {
+    display: block;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.payment > a > div {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.payment > a > div > img {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.payment > a > p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: var(--color-neutral-700);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer > div.footer-carousel >  div.footer-section-03 > div.return {
+    width: 258px;
+    height: 105px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+
+footer > div.footer-carousel >  div.footer-section-03 > div.return > a {
+    display: block;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.return > a > div {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.return > a > div > img {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.return > a > p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: var(--color-neutral-700);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer > div.footer-carousel >  div.footer-section-03 > div.original {
+    width: 258px;
+    height: 105px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+
+footer > div.footer-carousel >  div.footer-section-03 > div.original > a {
+    display: block;
+    padding-top: calc(3 * var(--spacing-base));
+    padding-bottom: calc(3 * var(--spacing-base));
+    
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.original > a > div {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.original > a > div > img {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+footer > div.footer-carousel >  div.footer-section-03 > div.original > a > p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: var(--color-neutral-700);
+    text-align: center;
+}
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-04 {
+    width: 100%;
+    height: 271px;
+    margin-top: calc(8 * var(--spacing-base));
+    margin-bottom: calc(8 * var(--spacing-base));
+    margin-right: calc(4 * var(--spacing-base));
+}
+
+
+footer > div.footer-carousel > div.footer-section-04 > div.with-digikala {
+    width: 362px;
+    height: 271px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-digikala > p {
+    font-size: 16px;
+    width: 100%;
+    height: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    display: block;
+    margin-bottom: calc(2 * var(--spacing-base));
+    color: var(--color-neutral-700);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-digikala > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.15;
+    color: var(--color-neutral-500);
+    height: 40px;
+    margin-bottom: calc(2 * var(--spacing-base));
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: var(--font-family);
+}
+
+
+
+footer > div.footer-carousel > div.footer-section-04 > div.custome-services {
+    width: 369px;
+    height: 271px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.custome-services > p {
+    font-size: 16px;
+    width: 100%;
+    height: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    display: block;
+    margin-bottom: calc(2 * var(--spacing-base));
+    color: var(--color-neutral-700);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.custome-services > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.15;
+    color: var(--color-neutral-500);
+    height: 40px;
+    margin-bottom: calc(2 * var(--spacing-base));
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: var(--font-family);
+}
+
+
+footer > div.footer-carousel > div.footer-section-04 > div.buying-guide {
+    width: 368px;
+    height: 271px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.buying-guide > p {
+    font-size: 16px;
+    width: 100%;
+    height: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    display: block;
+    margin-bottom: calc(2 * var(--spacing-base));
+    color: var(--color-neutral-700);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.buying-guide > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.15;
+    color: var(--color-neutral-500);
+    height: 40px;
+    margin-bottom: calc(2 * var(--spacing-base));
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: var(--font-family);
+}
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-04 > div.with-us {
+    width: 339px;
+    height: 271px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us {
+    width: 100%;
+    height: 86px;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us > h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: var(--color-neutral-700);
+    margin-bottom: calc(3 * var(--spacing-base));
+    font-family: var(--font-family);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us > div.social-with-us {
+    width: 100%;
+    height: 40px;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us > div.social-with-us > a {
+    display: inline-block;
+    margin-left: calc(8 * var(--spacing-base));
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: var(--font-family);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us > div.social-with-us > a > div {
+    width: 40px;
+    height: 40px;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us > div.social-with-us > a > div > span {}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.heading-with-us > div.social-with-us > a > div > span > svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--color-icon-low-emphasis);
+    vertical-align: middle;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us {
+    width: 100%;
+    height: 95px;
+    margin-top: calc(8 * var(--spacing-base));
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > h4 {
+    font-size: 16px;
+    display: block;
+    color: var(--color-neutral-700);
+    font-weight: 700;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    display: block;
+    margin-bottom: calc(3 * var(--spacing-base));
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us {
+    width: 100%;
+    height: 48px;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form {}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > label{
+    display: inline-block;
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > label > div {
+    width: 261px;
+    height: 48px;
+    padding-right: calc(2 * var(--spacing-base));
+    padding-left: calc(2 * var(--spacing-base));
+    border-radius: var(--medium-radius);
+    background-color: var(--color-neutral-100);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > label > div > div {}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > label > div > div > input[type="email"] {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-right: calc(2 * var(--spacing-base));
+    padding-left: calc(2 * var(--spacing-base));
+    width: 100%;
+    color: var(--color-neutral-700);
+    border: none;
+    background-color: transparent;
+    caret-color: var(--color-primary-500);
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.15;
+    border-radius: var(--global-radius);
+    background-color: #e0e0e6 !important;
+    border: 1px solid #e0e0e6 !important;
+    /* color: var(--color-white)!important; */
+    padding: calc(3 * var(--spacing-base)) calc(4 * var(--spacing-base));
+    display: inline-block;
+    margin-right: calc(2 * var(--spacing-base));
+    height: 48px;
+    color: var(--color-white)!important;
+    
+}
+footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > button > div {
+    color: var(--color-white)!important;
+}
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-05 {
+    width: 100%;
+    height: 76px;
+    margin-top: calc(18 * var(--spacing-base));
+    margin-bottom: calc(18 * var(--spacing-base));
+    border-radius: var(--global-radius);
+    background-color: #3c4b6d;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    position: relative;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application {
+    width: 90%;
+    height: 76px;
+    margin: 0 auto;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.icon-app {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.icon-app > div.logo {
+    width: 44px;
+    height: 44px;
+    margin-top: 8px;
+    display: inline-block;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.icon-app > div.logo > picture {}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.icon-app > div.logo > picture > img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.icon-app > div.text {
+    width: 450px;
+    height: 44px;
+    margin-top: 8px;
+    display: inline-block;
+    text-align: right;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 44px;
+    margin-right: calc(4 * var(--spacing-base));
+    font-family: var(--font-family);
+    color: var(--color-white);
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app {
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    /* position: absolute; */
+    /* left: 0; */
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.bazzar {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 1px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.bazzar > a {
+    /* margin: calc(2 * var(--spacing-base)); */
+    width: calc(50% - 4*var(--spacing-base));
+    max-width: 142px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.bazzar > a > div {
+    height: 44px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.myket {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 1px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.myket > a {
+    /* margin: calc(2 * var(--spacing-base)); */
+    width: calc(50% - 4*var(--spacing-base));
+    max-width: 142px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.myket > a > div {
+    height: 44px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.sib-app {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 1px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.sib-app > a {
+    /* margin: calc(2 * var(--spacing-base)); */
+    width: calc(50% - 4*var(--spacing-base));
+    max-width: 142px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.sib-app > a > div {
+    height: 44px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.more {
+    width: 42px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 1px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.more > a {
+    /* margin: calc(2 * var(--spacing-base)); */
+    /* width: calc(50% - 4*var(--spacing-base)); */
+    max-width: 42px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 65px;
+}
+footer > div.footer-carousel > div.footer-section-05 > div.application > div.link-download-app > div.more > a > div {
+    height: 44px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-right: 8px;
+}
+
+
+
+footer > div.footer-carousel > div.footer-section-06 {
+    width: 100%;
+    height: 225px;
+    margin-top: calc(8 * var(--spacing-base));
+    margin-bottom: calc(8 * var(--spacing-base));
+    margin-right: calc(4 * var(--spacing-base));
+    padding: 32px 0;
+    border-top: 1px solid var(--color-neutral-100);
+}
+footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info {
+    width: 1030px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div {
+    color: var(--color-neutral-500);
+    height: 125px;
+    margin-left: calc(10 * var(--spacing-base));
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > h1 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-neutral-600);
+    font-family: var(--font-family);
+}
+footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > h1 > strong {}
+footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+
+footer > div.footer-carousel > div.footer-section-06 > div.permissions {
+    width: 370px;
+    height: 140px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+footer > div.footer-carousel > div.footer-section-06 > div.permissions > div.licences {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer > div.footer-carousel > div.footer-section-06 > div.permissions > div.licences > div.items {
+    width: 108px;
+    height: 130px;
+    margin-right: 10px;
+    padding: calc(4 * var(--spacing-base));
+    margin-right: calc(2 * var(--spacing-base));
+    border-radius: var(--global-radius);
+    cursor: pointer;
+    border: 1px solid var(--color-neutral-200);
+}
+footer > div.footer-carousel > div.footer-section-06 > div.permissions > div.licences > div.items > div {
+    width: 75px;
+    height: 130px;
+}
+footer > div.footer-carousel > div.footer-section-06 > div.permissions > div.licences > div.items > div > picture {}
+footer > div.footer-carousel > div.footer-section-06 > div.permissions > div.licences > div.items > div > picture > img {
+    object-fit: cover;
+    width: 75px;
+    height: 98px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer > div.footer-carousel > div.footer-section-07 {
+    width: 100%;
+    height: 89px;
+    margin-top: calc(8 * var(--spacing-base));
+    margin-bottom: calc(8 * var(--spacing-base));
+    margin-right: calc(4 * var(--spacing-base));
+    padding: 32px 0;
+    border-top: 1px solid var(--color-neutral-100);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: var(--color-neutral-500);
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+
+
+footer > div.footer-section-08 {
+    width: 100%;
+    height: 160px;
+    background-color: var(--color-neutral-100);
+    margin-top: calc(8 * var(--spacing-base));
+}
+footer > div.footer-section-08 > div.all-services {
+    width: 100%;
+    height: 160px;
+}
+footer > div.footer-section-08 > div.all-services > div.row-01 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer > div.footer-section-08 > div.all-services > div.row-01 > div.brands {
+    width: 168px;
+    height: 80px;
+    /* display: inline-block; */
+    vertical-align: top;
+    /* margin-right: -4px; */
+    border-bottom: 1px solid var(--color-neutral-200);
+    border-left: 1px solid var(--color-neutral-200);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* footer > div.footer-section-08 > div.all-services > div.row-01 > div.brands:nth-child(1) {
+    margin-right: 10px;
+} */
+
+footer > div.footer-section-08 > div.all-services > div.row-01 > div.brands > a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+}
+footer > div.footer-section-08 > div.all-services > div.row-01 > div.brands > a > div {
+    height: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+footer > div.footer-section-08 > div.all-services > div.row-01 > div.brands > a > div > img {
+    object-fit: cover;
+    width: 100px;
+    height: auto;
+}
+footer > div.footer-section-08 > div.all-services > div.row-02 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer > div.footer-section-08 > div.all-services > div.row-02 > div.brands {
+    width: 168px;
+    height: 80px;
+    /* display: inline-block; */
+    vertical-align: top;
+    /* margin-right: -4px; */
+    border-bottom: 1px solid var(--color-neutral-200);
+    border-left: 1px solid var(--color-neutral-200);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* footer > div.footer-section-08 > div.all-services > div.row-02 > div.brands:nth-child(1) {
+    margin-right: 10px;
+} */
+footer > div.footer-section-08 > div.all-services > div.row-02 > div.brands > a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+}
+footer > div.footer-section-08 > div.all-services > div.row-02 > div.brands > a > div {
+    height: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+footer > div.footer-section-08 > div.all-services > div.row-02 > div.brands > a > div > img {
+    object-fit: cover;
+    width: 100px;
+    height: auto;
+}

@@ -39,7 +39,7 @@ div.blog > div.blog-carousel > div.caption > div {
 }
 div.blog > div.blog-carousel > div.caption > div.more-blog {
     width: 20%;
-    height: inherit;
+    height: 370px;
     position: absolute;
     left: 20px;
     top: 0;
@@ -62,36 +62,54 @@ div.blog > div.blog-carousel > div.caption > div.more-blog > a  > span > svg {
     width: 18px; height: 18px; fill: var(--color-icon-secondary);
     vertical-align: middle;
 }
-div.blog > div.blog-carousel > div.main-content-blog {}
-div.blog > div.blog-carousel > div.main-content-blog > div {
-    width: calc(24% - 5px);
-    height: fit-content;
-    border-radius: var(--medium-radius);
-    border: 1px solid var(--color-neutral-200);
-    display: inline-block;
-    background-color: var(--color-neutral-000);
-    margin-left: 12px;
+
+div.blog > div.blog-carousel > div.blog-content {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-div.blog > div.blog-carousel > div.main-content-blog > div > a {
+div.blog > div.blog-carousel > div.blog-content > div.items {
+    width: 332px;
+    height: 298px;
+    vertical-align: top;
+    margin-right: 20px;
+    border-bottom: 1px solid var(--color-neutral-200);
+    border-left: 1px solid var(--color-neutral-200);
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    border: 1px solid var(--color-neutral-200);
+    border-radius: var(--medium-radius);
+    background-color: var(--color-neutral-000);
+    overflow: hidden;
+}
+div.blog > div.blog-carousel > div.blog-content > div.items:nth-of-type(1) {
+    margin-right: -12px;
+}
+div.blog > div.blog-carousel > div.blog-content > div.items > a {
     display: block;
     text-decoration: none;
+    width: 332px;
+    height: 278px;
 }
-div.blog > div.blog-carousel > div.main-content-blog > div > a > div {}
-div.blog > div.blog-carousel > div.main-content-blog > div > a > div > img {
+div.blog > div.blog-carousel > div.blog-content > div.items > a > div {
+    width: 332px;
+}
+div.blog > div.blog-carousel > div.blog-content > div.items > a > div > img {
     object-fit: cover;
-    width: 317px;
-    border-radius: var(--medium-radius);
+    width: 100%;
 }
-
-div.blog > div.blog-carousel > div.main-content-blog > div > a > div.content {
+div.blog > div.blog-carousel > div.blog-content > div.items > a > div.tittle {
     font-size: 12px;
     font-weight: 400;
     line-height: 2.17;
     color: var(--color-neutral-900);
     padding-right: calc(4 * var(--spacing-base));
     padding-left: calc(4 * var(--spacing-base));
-    margin-bottom: calc(3 * var(--spacing-base));
-    margin-top: calc(2 * var(--spacing-base));
+    margin-bottom: 12px;
+    margin-top: 8px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;

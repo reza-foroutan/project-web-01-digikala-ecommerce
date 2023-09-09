@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="./public/css/main.css" />
   </head>
   <body>
+    <div id="top"></div>
       <!-- make website -->
       <svg style="display: none;">
         <symbol id="searchSearch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" clip-rule="evenodd"></path></symbol>
@@ -37,6 +38,11 @@
         <symbol id="clubMission" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M18.994 1.888l.006.114v3h3c.813 0 1.256.898.848 1.534l-.065.089-.076.084-3 3a1 1 0 01-.576.284l-.131.009h-3.586l-3.707 3.707a1 1 0 01-1.497-1.32l.083-.094L14 8.586V5.002a1 1 0 01.206-.608l.087-.1 3-3c.575-.574 1.523-.252 1.684.486l.017.108zm-6.493 2.239a9 9 0 107.375 7.376l-2.037-.001A7 7 0 1112.5 6.163V4.127zm-.205 4.045A5 5 0 1016 13.002l-.01-.307a4.984 4.984 0 00-.137-.9l-.024-.087-1.888 1.89a3.001 3.001 0 11-3.536-3.537l1.89-1.889zM16 5.416l1-1v1.586l.007.117.02.112a1 1 0 00.973.771h1.584l-1 1H16V5.416z" clip-rule="evenodd"></path></symbol>
         <symbol id="voucher" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 4h10a3 3 0 013 3v10a3 3 0 01-3 3H10a1 1 0 01-1-1 1 1 0 10-2 0 1 1 0 01-1 1H4a3 3 0 01-3-3V7a3 3 0 013-3h2a1 1 0 011 1 1 1 0 002 0 1 1 0 011-1zM8 8a3.001 3.001 0 01-2.83-2H4a1 1 0 00-1 1v10a1 1 0 001 1h1.17a3.001 3.001 0 015.66 0H20a1 1 0 001-1V7a1 1 0 00-1-1h-9.17A3.001 3.001 0 018 8zm5.5 2a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm5.5 5.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm-6.848-.03l1.696 1.06 5-8-1.696-1.06-5 8zM7 15v-2h2v2H7zm0-6v2h2V9H7z" clip-rule="evenodd"></path></symbol>
         <symbol id="discount" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M22 4a1 1 0 011 1v14a1 1 0 01-1 1H6a1 1 0 01-.707-.293l-4-4A1 1 0 011 15V9a1 1 0 01.293-.707l4-4A1 1 0 016 4h16zm-1 2H6.414L3 9.414v5.172L6.414 18H21V6zm-6 3.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm2.5 6.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM10 12a3 3 0 11-6 0 3 3 0 016 0zm-4 0a1 1 0 102 0 1 1 0 00-2 0zm12.848-3.47l-5 8-1.696-1.06 5-8 1.696 1.06z" clip-rule="evenodd"></path></symbol>
+        <symbol id="expandLess" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.707 14.707l-1.414-1.414 5-5a1 1 0 011.414 0l5 5-1.414 1.414L12 10.414l-4.293 4.293z"></path></symbol>
+        <symbol id="instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16.033 3H7.967A4.973 4.973 0 003 7.967v8.066A4.973 4.973 0 007.967 21h8.066A4.973 4.973 0 0021 16.033V7.967A4.973 4.973 0 0016.033 3zm3.37 13.033a3.374 3.374 0 01-3.37 3.37H7.967a3.374 3.374 0 01-3.37-3.37V7.967a3.374 3.374 0 013.37-3.37h8.066a3.374 3.374 0 013.37 3.37v8.066zM7.362 12A4.643 4.643 0 0112 7.362 4.643 4.643 0 0116.638 12 4.643 4.643 0 0112 16.638 4.643 4.643 0 017.362 12zM12 15.041a3.044 3.044 0 01-3.041-3.04A3.045 3.045 0 0112 8.958 3.045 3.045 0 0115.041 12 3.044 3.044 0 0112 15.041zm4.005-8.69c.218-.219.52-.343.828-.343.308 0 .61.124.828.343a1.176 1.176 0 010 1.656c-.218.218-.52.343-.828.343a1.18 1.18 0 01-.828-.343 1.18 1.18 0 01-.343-.828c0-.309.125-.611.343-.828z" clip-rule="evenodd"></path></symbol>
+        <symbol id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 6.73a7.374 7.374 0 01-2.12.581 3.708 3.708 0 001.623-2.041 7.444 7.444 0 01-2.346.896 3.693 3.693 0 00-6.292 3.367 10.483 10.483 0 01-7.61-3.858 3.665 3.665 0 00-.5 1.856 3.69 3.69 0 001.642 3.073 3.692 3.692 0 01-1.673-.464v.046a3.696 3.696 0 002.962 3.621c-.31.083-.636.13-.973.13-.238 0-.47-.024-.695-.07a3.695 3.695 0 003.448 2.565 7.409 7.409 0 01-4.585 1.579c-.298 0-.592-.018-.881-.051a10.437 10.437 0 005.66 1.661c6.793 0 10.506-5.626 10.506-10.505l-.013-.478A7.373 7.373 0 0021 6.73z"></path></symbol>
+        <symbol id="linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M6.4 4h19.2C26.92 4 28 5.08 28 6.4v19.2c0 1.32-1.08 2.4-2.4 2.4H6.4C5.08 28 4 26.92 4 25.6V6.4C4 5.08 5.08 4 6.4 4zm1.2 20.4h3.6V13.6H7.6v10.8zm1.8-12.84c-1.2 0-2.16-.96-2.16-2.16 0-1.2.96-2.16 2.16-2.16 1.2 0 2.16.96 2.16 2.16 0 1.2-.96 2.16-2.16 2.16zM20.8 24.4h3.6v-6.84c0-2.28-1.92-4.2-4.2-4.2-1.08 0-2.4.72-3 1.68V13.6h-3.6v10.8h3.6v-6.36c0-.96.84-1.8 1.8-1.8.96 0 1.8.84 1.8 1.8v6.36z" clip-rule="evenodd"></path></symbol>
+        <symbol id="aparat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 32"><path fill-rule="evenodd" d="M10.58 4.07a5.768 5.768 0 00-.804.33c-.66.324-1.321.978-1.626 1.609-.172.347-.546 1.597-.804 2.667-.029.11.184-.075.781-.671 1.184-1.192 2.31-1.95 3.763-2.546.65-.266 1.92-.625 2.47-.7.168-.024.294-.052.277-.064a28.734 28.734 0 00-1.195-.347c-1.046-.284-1.241-.319-1.856-.342-.494-.017-.781 0-1.005.064zm1.207 2.523a10.498 10.498 0 013.493-.984 10.5 10.5 0 016.877 1.76c2.333 1.573 3.861 3.911 4.436 6.77.149.746.149 2.957 0 3.703-.575 2.859-2.103 5.197-4.436 6.77a10.405 10.405 0 01-10.37.776 10.4 10.4 0 01-5.831-7.899c-.11-.74-.11-2.257 0-2.997a10.399 10.399 0 015.831-7.9zm4.395 5.463c.408-1.592-.643-3.276-2.258-3.611-.994-.209-1.947.086-2.688.827-1.173 1.18-1.178 2.969-.018 4.138 1.615 1.626 4.39.868 4.964-1.354zm5.332-2.142c1.333.348 2.223 1.482 2.223 2.83 0 .874-.247 1.499-.833 2.09-.402.404-.89.682-1.413.81-.724.167-1.333.092-2.04-.261-1.149-.567-1.81-1.898-1.557-3.13.132-.649.35-1.06.816-1.534.603-.608 1.224-.874 2.068-.886.224-.005.558.035.736.081zm-3.982 6.111c0-.463-.27-.885-.706-1.11-1.08-.562-2.264.566-1.758 1.683.155.347.258.457.597.614.902.428 1.867-.186 1.867-1.187zm-5.165.284c.173.029.523.162.776.289 1.149.567 1.81 1.898 1.557 3.13-.132.649-.35 1.06-.816 1.534-.942.955-2.258 1.163-3.464.55-1.546-.787-2.057-2.83-1.069-4.277.66-.954 1.85-1.44 3.016-1.226zm9.813 4.93c.316-1.522-.643-3.055-2.154-3.449a2.991 2.991 0 00-2.838.776 2.935 2.935 0 00.017 4.172c.89.897 2.24 1.11 3.43.532.695-.335 1.379-1.238 1.545-2.031zM23.48 7.212c-.144-.104-.259-.208-.259-.231 0-.024.172.011.39.069.213.058.8.214 1.305.347 1.23.319 1.746.579 2.327 1.152a3.627 3.627 0 011.091 2.639c0 .457-.046.694-.367 1.932a46.007 46.007 0 01-.397 1.435c-.017.012-.057-.167-.098-.399-.235-1.504-.89-3.165-1.723-4.41-.609-.92-1.614-2.036-2.27-2.534zM4.893 17.831c0 .023-.144.578-.316 1.238-.27 1.036-.316 1.273-.316 1.725 0 1.024.373 1.92 1.086 2.632.614.608 1.028.81 2.545 1.216.672.179 1.235.318 1.246.312.012-.011-.051-.08-.143-.15-.322-.25-1.362-1.296-1.707-1.725-1.05-1.302-1.867-3.026-2.223-4.664-.103-.492-.172-.717-.172-.584zm19.442 6.151c.287-.295.626-.671.752-.84.127-.161.236-.277.247-.248.023.07-.591 2.367-.74 2.755-.288.787-.995 1.545-1.788 1.938-1.074.532-1.786.544-3.55.07-1.334-.358-1.333-.36-1.31-.382a5.53 5.53 0 01.62-.145 11.493 11.493 0 005.769-3.148z" clip-rule="evenodd"></path></symbol>
       </svg>
       <!-- initialize wrapper -->
       <div class="wrapper">
@@ -86,7 +92,7 @@
             <div class="login-cart-box">
               <!-- initialize login box -->
               <div class="login-box">
-                <a href="/users/login/?backUrl=/">
+                <a href="./login.html">
                   <div>
                     <span>
                       <svg><use xlink:href="#registerationSignIn"></use></svg>
@@ -992,54 +998,44 @@
         
         <!-- initialize four banners -->
           <div class="four-banners">
-            <div class="one-cloumn">
-              <div class="watch">
-                <a href="/product-list/plp_73420736/">
-                  <div>
-                    <picture>
-                      <source type="image/webp" src="./public/images/four-banners/product-list-plp_73420736-webp.webp" srcset="./public/images/four-banners/product-list-plp_73420736-webp.webp" data-src="./public/images/four-banners/product-list-plp_73420736-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_73420736-webp.webp" />
-                      <source type="image/jpeg" src="./public/images/four-banners/product-list-plp_73420736-jpeg.jpg" srcset="./public/images/four-banners/product-list-plp_73420736-jpeg.jpg" data-src="./public/images/four-banners/product-list-plp_73420736-jpeg.jpg" data-srcset="./public/images/four-banners/product-list-plp_73420736-jpeg.jpg" />
-                      <img src="./public/images/four-banners/product-list-plp_73420736-webp.webp" alt="فروش ویژه ساعت و عینک کمتر از 300هزارتومان" srcset="./public/images/four-banners/product-list-plp_73420736-webp.webp" data-src="./public/images/four-banners/product-list-plp_73420736-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_73420736-webp.webp" />
-                    </picture>
-                  </div>
-                </a>
-              </div>
-              <div class="store">
-                <a href="dkstatics-public.digikala.com/digikala-adservice-banners/">
-                  <div>
-                    <picture>
-                      <source type="image/webp" src="./public/images/four-banners/store-webp.webp" srcset="./public/images/four-banners/store-webp.webp" data-src="./public/images/four-banners/store-webp.webp" data-srcset="./public/images/four-banners/store-webp.webp" />
-                      <source type="image/jpeg" src="./public/images/four-banners/store-jpeg.jpg" srcset="./public/images/four-banners/store-jpeg.jpg" data-src="./public/images/four-banners/store-jpeg.jpg" data-srcset="./public/images/four-banners/store-jpeg.jpg" />
-                      <img src="./public/images/four-banners/store-webp.webp" alt="لوازمت تکمیله؟" srcset="./public/images/four-banners/store-webp.webp" data-src="./public/images/four-banners/store-webp.webp" data-srcset="./public/images/four-banners/store-webp.webp" />
-                    </picture>
-                  </div>
-                </a>
-              </div>
+           <div class="four-banners-carousel">
+            <div class="items">
+              <a href="/product-list/plp_75276137/">
+                <picture>
+                  <source type="image/webp" src="./public/images/four-banners/product-list-plp_75276137-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_75276137-webp.webp" srcset="./public/images/four-banners/product-list-plp_75276137-webp.webp" />
+                  <source type="image/jpeg" src="./public/images/four-banners/product-list-plp_75276137-jpeg.jpg" data-srcset="./public/images/four-banners/product-list-plp_75276137-jpeg.jpg" srcset="./public/images/four-banners/product-list-plp_75276137-jpeg.jpg" />
+                  <img alt="انواع صندل و دمپایی کمتر از 200 هزار تومان" data-src="./public/images/four-banners/product-list-plp_75276137-webp.webp" src="./public/images/four-banners/product-list-plp_75276137-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_75276137-webp.webp" srcset="./public/images/four-banners/product-list-plp_75276137-webp.webp"/>
+                </picture>
+              </a>
             </div>
-            <div class="two-cloumn">
-              <div class="mi">
-                <a href="/landing/xiaomi-home-electronic/">
-                  <div>
-                    <picture>
-                      <source type="image/webp" src="./public/images/four-banners/mi-webp.webp" srcset="./public/images/four-banners/mi-webp.webp" data-src="./public/images/four-banners/mi-webp.webp" data-srcset="./public/images/four-banners/mi-webp.webp" />
-                      <source type="image/jpeg" src="./public/images/four-banners/mi-jpeg.jpg" srcset="./public/images/four-banners/mi-jpeg.jpg" data-src="./public/images/four-banners/mi-jpeg.jpg" data-srcset="./public/images/four-banners/mi-jpeg.jpg" />
-                      <img src="./public/images/four-banners/mi-webp.webp" alt="لوازم برقی خانگی شیایومی" srcset="./public/images/four-banners/mi-webp.webp" data-src="./public/images/four-banners/mi-webp.webp" data-srcset="./public/images/four-banners/mi-webp.webp" />
-                    </picture>
-                  </div>
-                </a>
-              </div>
-              <div class="golad">
-                <a href="/search/category-gold-jewelry/">
-                  <div>
-                    <picture>
-                      <source type="image/webp" src="./public/images/four-banners/goladen-webp.webp" srcset="./public/images/four-banners/goladen-webp.webp" data-src="./public/images/four-banners/goladen-webp.webp" data-srcset="./public/images/four-banners/goladen-webp.webp" />
-                      <source type="image/jpeg" src="./public/images/four-banners/goladen-jepg.jpg" srcset="./public/images/four-banners/goladen-jepg.jpg" data-src="./public/images/four-banners/goladen-jepg.jpg" data-srcset="./public/images/four-banners/goladen-jepg.jpg" />
-                      <img src="./public/images/four-banners/goladen-webp.webp" alt="طلا و جواهرات" srcset="./public/images/four-banners/goladen-webp.webp" data-src="./public/images/four-banners/goladen-webp.webp" data-srcset="./public/images/four-banners/goladen-webp.webp" />
-                    </picture>
-                  </div>
-                </a>
-              </div>
+            <div class="items">
+              <a href="/product-list/plp_74585840/">
+                <picture>
+                  <source type="image/webp" src="./public/images/four-banners/product-list-plp_74585840-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_74585840-webp.webp" srcset="./public/images/four-banners/product-list-plp_74585840-webp.webp" />
+                  <source type="image/jpeg" src="./public/images/four-banners/product-list-plp_74585840-jpeg.jpg" data-srcset="./public/images/four-banners/product-list-plp_74585840-jpeg.jpg" srcset="./public/images/four-banners/product-list-plp_74585840-jpeg.jpg" />
+                  <img alt="جشنواره پرسیل" data-src="./public/images/four-banners/product-list-plp_74585840-webp.webp" src="./public/images/four-banners/product-list-plp_74585840-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_74585840-webp.webp" srcset="./public/images/four-banners/product-list-plp_74585840-webp.webp"/>
+                </picture>
+              </a>
             </div>
+            <div class="items">
+              <a href="/product-list/plp_75008653/">
+                <picture>
+                  <source type="image/webp" src="./public/images/four-banners/product-list-plp_75008653-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_75008653-webp.webp" srcset="./public/images/four-banners/product-list-plp_75008653-webp.webp" />
+                  <source type="image/jpeg" src="./public/images/four-banners/product-list-plp_75008653-jpeg.jpg" data-srcset="./public/images/four-banners/product-list-plp_75008653-jpeg.jpg" srcset="./public/images/four-banners/product-list-plp_75008653-jpeg.jpg" />
+                  <img alt="مایع ظرف" data-src="./public/images/four-banners/product-list-plp_75008653-webp.webp" src="./public/images/four-banners/product-list-plp_75008653-webp.webp" data-srcset="./public/images/four-banners/product-list-plp_75008653-webp.webp" srcset="./public/images/four-banners/product-list-plp_75008653-webp.webp"/>
+                </picture>
+              </a>
+            </div>
+            <div class="items">
+              <a href="/search/category-gold-jewelry/">
+                <picture>
+                  <source type="image/webp" src="./public/images/four-banners/search-category-gold-jewelry-webp.webp" data-srcset="./public/images/four-banners/search-category-gold-jewelry-webp.webp" srcset="./public/images/four-banners/search-category-gold-jewelry-webp.webp" />
+                  <source type="image/jpeg" src="./public/images/four-banners/search-category-gold-jewelry-jpeg.jpg" data-srcset="./public/images/four-banners/search-category-gold-jewelry-jpeg.jpg" srcset="./public/images/four-banners/search-category-gold-jewelry-jpeg.jpg" />
+                  <img alt="طلا و جواهرات" data-src="./public/images/four-banners/search-category-gold-jewelry-webp.webp" src="./public/images/four-banners/search-category-gold-jewelry-webp.webp" data-srcset="./public/images/four-banners/search-category-gold-jewelry-webp.webp" srcset="./public/images/four-banners/search-category-gold-jewelry-webp.webp"/>
+                </picture>
+              </a>
+            </div>
+           </div>
           </div>
         <!-- end four banners -->
 
@@ -3012,43 +3008,449 @@
                 </a>
               </div>
             </div>
-            <div class="main-content-blog">
-              <div>
-                <a href="/mag/video/russell-hobbs-electric-kettle-unboxing-review/">
+            <div class="blog-content">
+              <div class="items">
+                <a href="/mag/best-silicon-power-external-hards-shopping-guide/">
                   <div>
-                    <img src="./public/images/blog/russell-hobbs-electric-kettle-unboxing-review.jpg" alt="بررسی کتری برقی راسل هابز مدل Inspire؛ طراحی و کیفیت خوب" srcset="./public/images/blog/russell-hobbs-electric-kettle-unboxing-review.jpg" data-src="./public/images/blog/russell-hobbs-electric-kettle-unboxing-review.jpg" data-srcset="./public/images/blog/russell-hobbs-electric-kettle-unboxing-review.jpg" />
+                    <img src="./public/images/blog/Best-Silicon-Power-SSD-9.jpg" alt="راهنمای خرید بهترین هارد سیلیکون پاور بازار؛ معرفی ۸ مدل جان‌سخت" srcset="./public/images/blog/Best-Silicon-Power-SSD-9.jpg" data-src="./public/images/blog/Best-Silicon-Power-SSD-9.jpg" data-srcset="./public/images/blog/Best-Silicon-Power-SSD-9.jpg" />
                   </div>
-                  <div class="content">بررسی کتری برقی راسل هابز مدل Inspire؛ طراحی و کیفیت خوب</div> 
+                  <div class="tittle">راهنمای خرید بهترین هارد سیلیکون پاور بازار؛ معرفی ۸ مدل جان‌سخت</div>
                 </a>
               </div>
-              <div>
-                <a href="/mag/video/redragon-k502-gaming-keyboard-unboxing-review/">
+              <div class="items">
+                <a href="/mag/video/samsung-galaxy-watch6-44mm-smart-watch-unboxing-review/">
                   <div>
-                    <img src="./public/images/blog/redragon-k502-gaming-keyboard-unboxing-review.jpg" alt="بررسی کیبورد گیمینگ ردراگون K502؛ کم‌صدا و فوق‌العاده" srcset="./public/images/blog/redragon-k502-gaming-keyboard-unboxing-review.jpg" data-src="./public/images/blog/redragon-k502-gaming-keyboard-unboxing-review.jpg" data-srcset="./public/images/blog/redragon-k502-gaming-keyboard-unboxing-review.jpg" />
+                    <img src="./public/images/blog/samsung-galaxy-watch6-44mm-smart-watch-unboxing-review.jpg" alt="گلکسی واچ ۶ در برابر واچ ۶ کلاسیک؛ کدام ساعت بهتر است؟" srcset="./public/images/blog/samsung-galaxy-watch6-44mm-smart-watch-unboxing-review.jpg" data-src="./public/images/blog/samsung-galaxy-watch6-44mm-smart-watch-unboxing-review.jpg" data-srcset="./public/images/blog/samsung-galaxy-watch6-44mm-smart-watch-unboxing-review.jpg" />
                   </div>
-                  <div class="content">بررسی کیبورد گیمینگ ردراگون K502؛ کم‌صدا و فوق‌العاده</div> 
+                  <div class="tittle">گلکسی واچ ۶ در برابر واچ ۶ کلاسیک؛ کدام ساعت بهتر است؟</div>
                 </a>
               </div>
-              <div>
-                <a href="/mag/video/smart-watch-green-line-adventure-model-unboxing-review/">
+              <div class="items">
+                <a href="/mag/stationary-and-school-supplies-for-freshmen-kids-guide/">
                   <div>
-                    <img src="./public/images/blog/smart-watch-green-line-adventure-model-unboxing-review.jpg" alt="بررسی ساعت هوشمند گرین لاین Adventure؛ محکم ولی سبک" srcset="./public/images/blog/smart-watch-green-line-adventure-model-unboxing-review.jpg" data-src="./public/images/blog/smart-watch-green-line-adventure-model-unboxing-review.jpg" data-srcset="./public/images/blog/smart-watch-green-line-adventure-model-unboxing-review.jpg" />
+                    <img src="./public/images/blog/starting-school-checklist.jpg" alt="چک لیست خرید لوازم تحریر برای کلاس اولی‌ها" srcset="./public/images/blog/starting-school-checklist.jpg" data-src="./public/images/blog/starting-school-checklist.jpg" data-srcset="./public/images/blog/starting-school-checklist.jpg" />
                   </div>
-                  <div class="content">بررسی ساعت هوشمند گرین لاین Adventure؛ محکم ولی سبک</div> 
+                  <div class="tittle">چک لیست خرید لوازم تحریر برای کلاس اولی‌ها</div>
                 </a>
               </div>
-              <div>
-                <a href="/mag/video/tahchin-model-mold-unboxing-review/">
+              <div class="items">
+                <a href="/mag/digikala-mag-router-buying-guide/">
                   <div>
-                    <img src="./public/images/blog/tahchin-model-mold-unboxing-review.jpg" alt="بررسی قالب مدل ته‌چین، کته و کیک؛ کمک به سرو زیباتر غذا" srcset="./public/images/blog/tahchin-model-mold-unboxing-review.jpg" data-src="./public/images/blog/tahchin-model-mold-unboxing-review.jpg" data-srcset="./public/images/blog/tahchin-model-mold-unboxing-review.jpg" />
+                    <img src="./public/images/blog/Digikala-mag-router-buying-guide-1402-06.jpg" alt="راهنمای خرید روتر دیجی‌کالا مگ؛ شهریور ۱۴۰۲" srcset="./public/images/blog/Digikala-mag-router-buying-guide-1402-06.jpg" data-src="./public/images/blog/Digikala-mag-router-buying-guide-1402-06.jpg" data-srcset="./public/images/blog/Digikala-mag-router-buying-guide-1402-06.jpg" />
                   </div>
-                  <div class="content">بررسی قالب مدل ته‌چین، کته و کیک؛ کمک به سرو زیباتر غذا</div> 
+                  <div class="tittle">راهنمای خرید روتر دیجی‌کالا مگ؛ شهریور ۱۴۰۲</div>
                 </a>
               </div>
             </div>
           </div>
         </div>
         <!-- end blog -->
+
+        <!-- initialize footer -->
+        <footer>
+          <div class="footer-carousel">
+            <div class="footer-section-01">
+              <div class="logo">
+                <div>
+                  <img src="./public/images/footer/digi.svg" alt="فروشگاه اینترنتی دیجی‌کالا" srcset="./public/images/footer/digi.svg" data-src="./public/images/footer/digi.svg" data-srcset="./public/images/footer/digi.svg" />
+                </div>
+              </div>
+              <div class="top">
+                <a href="#top">
+                  <span>بازگشت به بالا</span>
+                <span>
+                  <svg>
+                    <use xlink:href="#expandLess"></use>
+                  </svg>
+                </span>
+                </a>
+              </div>
+            </div>
+            <div class="footer-section-02">
+              <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
+              <div><i class="fa-solid fa-pipe"></i></div>
+              <p>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+            </div>
+
+            <div class="footer-section-03">
+              <div class="delivery">
+                <a href="/faq/question/79/">
+                  <div>
+                    <img src="./public/images/footer/express-delivery.svg" alt="اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس" data-src="./public/images/footer/express-delivery.svg" data-srcset="./public/images/footer/express-delivery.svg" srcset="./public/images/footer/express-delivery.svg" />
+                  </div>
+                  <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+                </a>
+              </div>
+              <div class="express">
+                <a href="/faq/question/81/">
+                  <div>
+                    <img src="./public/images/footer/cash-on-delivery.svg" alt="امکان پرداخت در محل" data-src="./public/images/footer/cash-on-delivery.svg" data-srcset="./public/images/footer/cash-on-delivery.svg" srcset="./public/images/footer/cash-on-delivery.svg" />
+                  </div>
+                  <p>امکان پرداخت در محل</p>
+                </a>
+              </div>
+              <div class="payment">
+                <a href="/page/contact-us/">
+                  <div>
+                    <img src="./public/images/footer/support.svg" alt="" data-src="./public/images/footer/support.svg" data-srcset="./public/images/footer/support.svg" srcset="./public/images/footer/support.svg" />
+                  </div>
+                  <p>۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ</p>
+                </a>
+              </div>
+              <div class="return">
+                <a href="/faq/question/83/">
+                  <div>
+                    <img src="./public/images/footer/days-return.svg" alt="هفت روز ضمانت بازگشت کالا" data-src="./public/images/footer/days-return.svg" data-srcset="./public/images/footer/days-return.svg" srcset="./public/images/footer/days-return.svg" />
+                  </div>
+                  <p>هفت روز ضمانت بازگشت کالا</p>
+                </a>
+              </div>
+              <div class="original">
+                <a href="/faq/question/82/">
+                  <div>
+                    <img src="./public/images/footer/original-products.svg" alt="ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ" data-src="./public/images/footer/original-products.svg" data-srcset="./public/images/footer/original-products.svg" srcset="./public/images/footer/original-products.svg" />
+                  </div>
+                  <p>ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-section-04">
+              <div class="with-digikala">
+                <p>با دیجی‌کالا</p>
+                <a href="https://about.digikala.com/newsroom/">اتاق خبر دیجی‌کالا</a>
+                <a href="/landings/seller-introduction/">فروش در دیجی‌کالا</a>
+                <a href="https://careers.digikala.com/">فرصت‌های شغلی</a>
+                <a href="https://digikalapublic.whistleblowernetwork.net/frontpage">گزارش تخلف در دیجی‌کالا</a>
+                <a href="/page/contact-us/">تماس با دیجی‌کالا</a>
+                <a href="https://about.digikala.com/">درباره دیجی‌کالا</a>
+              </div>
+              <div class="custome-services">
+                <p>خدمات مشتریان</p>
+                <a href="/faq/">پاسخ به پرسش‌های متداول</a>
+                <a href="/faq/question/83/">رویه‌های بازگرداندن کالا</a>
+                <a href="/page/terms/">شرایط استفاده</a>
+                <a href="/page/privacy/">حریم خصوصی</a>
+                <a href="/page/bug-report/">گزارش باگ</a>
+              </div>
+              <div class="buying-guide">
+                <p>راهنمای خرید از دیجی‌کالا</p>
+                <a href="/faq/question/649/">نحوه ثبت سفارش</a>
+                <a href="/faq/question/79/">رویه ارسال سفارش</a>
+                <a href="/faq/question/81/">شیوه‌های پرداخت</a>
+              </div>
+              <div class="with-us">
+                <div class="heading-with-us">
+                  <h4>همراه ما باشید!</h4>
+                  <div class="social-with-us">
+                    <a href="https://www.instagram.com/digikalacom/">
+                      <div>
+                        <span>
+                          <svg><use xlink:href="#instagram"></use></svg>
+                        </span>
+                      </div>
+                    </a>
+
+                    <a href="https://twitter.com/digikalacom/">
+                      <div>
+                        <span>
+                          <svg><use xlink:href="#twitter"></use></svg>
+                        </span>
+                      </div>
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/company/digikala/mycompany/">
+                      <div>
+                        <span>
+                          <svg><use xlink:href="#linkedin"></use></svg>
+                        </span>
+                      </div>
+                    </a>
+
+
+
+                    <a href="https://www.aparat.com/digikala/">
+                      <div>
+                        <span>
+                          <svg><use xlink:href="#aparat"></use></svg>
+                        </span>
+                      </div>
+                    </a>
+
+                  </div>
+                </div>
+                <div class="email-registration-with-us">
+                  <h4>با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</h4>
+                  <div class="form-email-registration-with-us">
+                    <form>
+                      <label for="email">
+                        <div>
+                          <div>
+                            <input type="email" name="email" id="email" placeholder="ایمیل شما" />
+                          </div>
+                        </div>
+                      </label>
+                      <button type="submit">
+                        <div>ثبت</div>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+            <div class="footer-section-05">
+              <div class="application">
+                <div class="icon-app">
+                  <div class="logo">
+                    <picture>
+                      <source type="image/webp" src="./public/images/footer/footerlogo2.webp" data-srcset="./public/images/footer/footerlogo2.webp" srcset="./public/images/footer/footerlogo2.webp" />
+                      <source type="image/jpeg" src="./public/images/footer/footerlogo2-png.png" data-srcset="./public/images/footer/footerlogo2-png.png" srcset="./public/images/footer/footerlogo2-png.png" />
+                      <img alt="دانلود اپلیکیشن دیجی‌کالا" data-src="./public/images/footer/footerlogo2.webp" src="./public/images/footer/footerlogo2.webp" data-srcset="./public/images/footer/footerlogo2.webp" srcset="./public/images/footer/footerlogo2.webp" />
+                    </picture>
+                  </div>
+                  <div class="text"> دانلود اپلیکیشن دیجی‌کالا</div>
+                </div>
+                <div class="link-download-app">
+                  <div class="bazzar">
+                    <a href="#" target="_blank" title="دریافت از کافه‌بازار">
+                      <div>
+                        <img src="./public/images/footer/coffe-bazzar.svg" alt="دریافت از کافه‌بازار" />
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="myket">
+                    <a href="#" target="_blank" title="دریافت از مایکت">
+                      <div>
+                        <img src="./public/images/footer/myket.svg" alt="دریافت از مایکت" />
+                      </div>
+                    </a>
+                  </div>
+
+
+                  <div class="sib-app">
+                    <a href="#" target="_blank" title="دریافت از سیب‌اپ">
+                      <div>
+                        <img src="./public/images/footer/sib-app.svg" alt="دریافت از سیب‌اپ" />
+                      </div>
+                    </a>
+                  </div>
+
+
+
+
+                  <div class="more">
+                    <a href="#" target="_blank" title="اطلاعات بیشتر">
+                      <div>
+                        <img src="./public/images/footer/More.svg" alt="اطلاعات بیشتر" />
+                      </div>
+                    </a>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-section-06">
+              <div class="heading-text-info">
+                <div>
+                  <h1>
+                    <strong>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</strong>
+                  </h1>
+
+            <p>یک<strong> خرید</strong> اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی&zwnj;هایی که فروشگاه اینترنتی دیجی&zwnj;کالا سال&zwnj;هاست بر روی آن&zwnj;ها کار کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.<br>
+  یکی از مهم&zwnj;ترین دغدغه&zwnj;های کاربران دیجی&zwnj;کالا یا هر فروشگاه&zwnj; اینترنتی دیگری، این است که کالای خریداری شده چه زمانی به دستشان می&zwnj;رسد. دیجی&zwnj;کالا شیوه&zwnj;های مختلفی از ارسال را متناسب با فروشنده کالا،&zwnj; مقصد کالا و همچنین نوع کالا در اختیار کاربران خود قرار می&zwnj;دهد. هر یک&nbsp;از <a href="landing/delivery/">روش های ارسال دیجی کالا</a> شرایط و ویژگی&zwnj;های خاص خود را دارند که ممکن است گاهی برای کاربران جدید، مبهم و پیچیده به نظر برسند. برای آگاهی بیشتر مشتریان از خدمات دیجی&zwnj;کالا، این فروشگاه اینترنتی در بخشی از وب&zwnj;سایت خود راهنمای کاملی از شیوه&zwnj;&zwnj;های ارسال را به صورت ساده و به دور از پیچیدگی، قرار داده است که شامل 8 نوع ارسال کالا به روش&zwnj;های زیر است: ارسال امروز، دریافت حضوری، دریافت از گنجه، ارسال توسط فروشنده، ارسال عادی، ارسال کالاهای بزرگ، سنگین و فوق سنگین، ارسال سریع سوپرمارکتی، ارسال با پست</p>
+                </div>
+              </div>
+              <div class="permissions">
+                <div class="licences">
+                  <div class="items">
+                    <div>
+                      <picture>
+                        <source type="image/webp" src="./public/images/footer/rezi.webp" srcset="./public/images/footer/rezi.webp" data-src="./public/images/footer/rezi.webp" data-srcset="./public/images/footer/rezi.webp" />
+                        <source type="image/jpeg" src="./public/images/footer/rezi.png" srcset="./public/images/footer/rezi.png" data-src="./public/images/footer/rezi.png" data-srcset="./public/images/footer/rezi.png" />
+                        <img src="./public/images/footer/rezi.webp" alt="لوگو ساماندهی" srcset="./public/images/footer/rezi.webp" data-src="./public/images/footer/rezi.webp" data-srcset="./public/images/footer/rezi.webp" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="items">
+                    <div>
+                      <picture>
+                        <source type="image/webp" src="./public/images/footer/kasbokar.webp" srcset="./public/images/footer/kasbokar.webp" data-src="./public/images/footer/kasbokar.webp" data-srcset="./public/images/footer/kasbokar.webp" />
+                        <source type="image/jpeg" src="./public/images/footer/kasbokar.png" srcset="./public/images/footer/kasbokar.png" data-src="./public/images/footer/kasbokar.png" data-srcset="./public/images/footer/kasbokar.png" />
+                        <img src="./public/images/footer/kasbokar.webp" alt="لوگو کسب و کار اینترنتی" srcset="./public/images/footer/kasbokar.webp" data-src="./public/images/footer/kasbokar.webp" data-srcset="./public/images/footer/kasbokar.webp" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="items">
+                    <div>
+                      <picture>
+                        <source type="image/webp" src="./public/images/footer/rezi.webp" srcset="./public/images/footer/rezi.webp" data-src="./public/images/footer/rezi.webp" data-srcset="./public/images/footer/rezi.webp" />
+                        <source type="image/jpeg" src="./public/images/footer/rezi.png" srcset="./public/images/footer/rezi.png" data-src="./public/images/footer/rezi.png" data-srcset="./public/images/footer/rezi.png" />
+                        <img src="./public/images/footer/rezi.webp" alt="لوگو ساماندهی" srcset="./public/images/footer/rezi.webp" data-src="./public/images/footer/rezi.webp" data-srcset="./public/images/footer/rezi.webp" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="footer-section-07">
+              برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.
+            </div>
+
+            
+    
+
+          </div>
+          <div class="footer-section-08">
+            <div class="all-services">
+              <div class="row-01">
+                <div class="brands">
+                  <a href="/mag/">
+                    <div>
+                      <img src="./public/images/footer/digimag.svg" alt="دیجی‌کالا مگ | تکنولوژی، بازی‌های کامپیوتری، فرهنگ‌ و هنر، سلامت و زیبایی و سبک زندگی" srcset="./public/images/footer/digimag.svg" data-src="./public/images/footer/digimag.svg" data-srcset="./public/images/footer/digimag.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/mydigipay/">
+                    <div>
+                      <img src="./public/images/footer/digipay.svg" alt="دیجی پی | پرداخت، باهوش" srcset="./public/images/footer/digipay.svg" data-src="./public/images/footer/digipay.svg" data-srcset="./public/images/footer/digipay.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/digistyle/">
+                    <div>
+                      <img src="./public/images/footer/digistyle.svg" alt="فروشگاه اینترنتی لباس دیجی‌استایل" srcset="./public/images/footer/digistyle.svg" data-src="./public/images/footer/digistyle.svg" data-srcset="./public/images/footer/digistyle.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/plus/landing/">
+                    <div>
+                      <img src="./public/images/footer/digiplus.svg" alt="دیجی‌کالا - دیجی‌پلاس - خدمات ویژه کاربران دیجی‌کالا" srcset="./public/images/footer/digiplus.svg" data-src="./public/images/footer/digiplus.svg" data-srcset="./public/images/footer/digiplus.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/digiclub/">
+                    <div>
+                      <img src="./public/images/footer/digiclub.svg" alt="دیجی‌کلاب" srcset="./public/images/footer/digiclub.svg" data-src="./public/images/footer/digiclub.svg" data-srcset="./public/images/footer/digiclub.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="digikalajet">
+                    <div>
+                      <img src="./public/images/footer/jet.svg" alt="دیجی‌کالا جت | خرید آنلاین و فوری از سوپرمارکت‌های اطراف" srcset="./public/images/footer/jet.svg" data-src="./public/images/footer/jet.svg" data-srcset="./public/images/footer/jet.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/landings/magnet/">
+                    <div>
+                      <img src="./public/images/footer/magnet.svg" alt="پلتفرم بررسی و انتخاب کالا" srcset="./public/images/footer/magnet.svg" data-src="./public/images/footer/magnet.svg" data-srcset="./public/images/footer/magnet.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/mehr/">
+                    <div>
+                      <img src="./public/images/footer/digiMehr.svg" alt="دیجی کالا مهر، به مسیر تازه مهربانی بیا" srcset="./public/images/footer/digiMehr.svg" data-src="./public/images/footer/digiMehr.svg" data-srcset="./public/images/footer/digiMehr.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/fidibo/">
+                    <div>
+                      <img src="./public/images/footer/fidibo.svg" alt="خرید و دانلود کتاب متنی، صوتی با فیدیبو" srcset="./public/images/footer/fidibo.svg" data-src="./public/images/footer/fidibo.svg" data-srcset="./public/images/footer/fidibo.svg" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="row-02">
+                <div class="brands">
+                  <a href="/diginext/">
+                    <div>
+                      <img src="./public/images/footer/diginext.svg" alt="دیجی‌نکست - مرکز نوآوری و سرمایه‌گذاری گروه دیجی‌کالا" srcset="./public/images/footer/diginext.svg" data-src="./public/images/footer/diginext.svg" data-srcset="./public/images/footer/diginext.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/pindo/">
+                    <div>
+                      <img src="./public/images/footer/pindo.svg" alt="پیندو - بازار خرید و فروش امن و بی واسطه کالا و خدمات" srcset="./public/images/footer/pindo.svg" data-src="./public/images/footer/pindo.svg" data-srcset="./public/images/footer/pindo.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="komodaa">
+                    <div>
+                      <img src="./public/images/footer/komodaa.svg" alt="کمدا | پلتفرم اجتماعی خرید و فروش" srcset="./public/images/footer/komodaa.svg" data-src="./public/images/footer/komodaa.svg" data-srcset="./public/images/footer/komodaa.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/digiexpress/">
+                    <div>
+                      <img src="./public/images/footer/digiexpress.svg" alt="دیجی‌اکسپرس | سرویس اینترنتی جمع آوری و ارسال سریع بسته و مرسوله پستی و حمل و نقل" srcset="./public/images/footer/digiexpress.svg" data-src="./public/images/footer/digiexpress.svg" data-srcset="./public/images/footer/digiexpress.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="ganje">
+                    <div>
+                      <img src="./public/images/footer/ganjeh.svg" alt="گنجه | خدمات هوشمند دریافت و تحویل مرسولات" srcset="./public/images/footer/ganjeh.svg" data-src="./public/images/footer/ganjeh.svg" data-srcset="./public/images/footer/ganjeh.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/digify.shop/">
+                    <div>
+                      <img src="./public/images/footer/digify.svg" alt="دیجی‌فای | ساخت سایت فروشگاهی" srcset="./public/images/footer/digify.svg" data-src="./public/images/footer/digify.svg" data-srcset="./public/images/footer/digify.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/smartech/">
+                    <div>
+                      <img src="./public/images/footer/smartech.svg" alt="تعامل هوشمند - رشد پایدار" srcset="./public/images/footer/smartech.svg" data-src="./public/images/footer/smartech.svg" data-srcset="./public/images/footer/smartech.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/digikalabusiness/">
+                    <div>
+                      <img src="./public/images/footer/digikala-business.svg" alt="فروشگاه اینترنتی دیجی‌کالا بیزینس" srcset="./public/images/footer/digikala-business.svg" data-src="./public/images/footer/digikala-business.svg" data-srcset="./public/images/footer/digikala-business.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div class="brands">
+                  <a href="/digikala-service/">
+                    <div>
+                      <img src="./public/images/footer/digikala-service.svg" alt="دیجی کالا سرویس | مرکز خدمات و گارانتی تجهیزات الکترونیکی" srcset="./public/images/footer/digikala-service.svg" data-src="./public/images/footer/digikala-service.svg" data-srcset="./public/images/footer/digikala-service.svg" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- end footer -->
+
+    
+   
+
 
       </div>
       <!-- end wrapper -->
