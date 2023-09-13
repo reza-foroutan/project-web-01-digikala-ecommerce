@@ -520,11 +520,12 @@ footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-r
     border: none;
     background-color: transparent;
     caret-color: var(--color-primary-500);
+    font-family: inherit;
 }
 footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > button {
     font-size: 14px;
     font-weight: 700;
-    line-height: 2.15;
+    line-height: 1.15;
     border-radius: var(--global-radius);
     background-color: #e0e0e6 !important;
     border: 1px solid #e0e0e6 !important;
@@ -534,7 +535,7 @@ footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-r
     margin-right: calc(2 * var(--spacing-base));
     height: 48px;
     color: var(--color-white)!important;
-    
+    font-family: inherit;
 }
 footer > div.footer-carousel > div.footer-section-04 > div.with-us > div.email-registration-with-us > div.form-email-registration-with-us > form > button > div {
     color: var(--color-white)!important;
@@ -732,6 +733,7 @@ footer > div.footer-carousel > div.footer-section-06 {
     margin-right: calc(4 * var(--spacing-base));
     padding: 32px 0;
     border-top: 1px solid var(--color-neutral-100);
+    padding-bottom: 102px;
 }
 footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info {
     width: 1030px;
@@ -742,7 +744,7 @@ footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info {
 }
 footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div {
     color: var(--color-neutral-500);
-    height: 125px;
+    height: 123px;
     margin-left: calc(10 * var(--spacing-base));
     font-size: 12px;
     font-weight: 400;
@@ -761,7 +763,36 @@ footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > d
     text-align: justify;
     line-height: 30px;
 }
+footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > p > a {
+    color: var(--color-secondary-500);
+}
 
+footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    margin-top: calc(4 * var(--spacing-base));
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: var(--color-button-secondary);
+    position: absolute;
+    margin-top: -51px;
+}
+footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > p > strong {
+    color: var(--color-secondary-500);
+}
+footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > p > strong > a {
+    color: var(--color-secondary-500);
+}
+footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > span {}
+footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > span > svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--color-icon-secondary);
+    vertical-align: middle;
+}
 
 
 footer > div.footer-carousel > div.footer-section-06 > div.permissions {
@@ -798,8 +829,9 @@ footer > div.footer-carousel > div.footer-section-06 > div.permissions > div.lic
     width: 75px;
     height: 98px;
 }
-
-
+.seo {
+    color: var(--color-secondary-500);
+}
 
 
 

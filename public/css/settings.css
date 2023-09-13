@@ -62,6 +62,7 @@ body::-webkit-scrollbar-thumb {
     --color-secondary-700: #008eb2;
     --color-button-primary: #ef4056;
     --color-button-text-primary: #fff;
+    --color-button-secondary: #19bfd3;
 }
 
 body {

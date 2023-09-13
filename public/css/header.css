@@ -518,6 +518,7 @@ header > div.header-bottom > nav > div.city {
     box-sizing: border-box;
     background-color: blue;
 }
+header > div.header-bottom > nav > div.city > div.location {}
 /* end header bottom */
 
 
