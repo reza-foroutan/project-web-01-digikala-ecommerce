@@ -114,7 +114,7 @@ header > div.header-bottom > div.category> nav > div.right > div.parent > div.wh
 }
 header > div.header-bottom > div.category> nav > div.right > div.parent > div.whole > div.subMenu {
   width: calc(100vw - 60px);
-  height: 50vh;
+  height: 70vh;
   background-color: white;
   position: absolute;
   top: 100%;
