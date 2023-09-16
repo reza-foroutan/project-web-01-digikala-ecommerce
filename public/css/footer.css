@@ -735,64 +735,20 @@ footer > div.footer-carousel > div.footer-section-06 {
     border-top: 1px solid var(--color-neutral-100);
     padding-bottom: 102px;
 }
-footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info {
-    width: 1030px;
+footer > div.footer-carousel > div.footer-section-06 > div.content {
+    width: 72%;
     height: 100%;
     display: inline-block;
     vertical-align: top;
     overflow: hidden;
-}
-footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div {
-    color: var(--color-neutral-500);
-    height: 123px;
-    margin-left: calc(10 * var(--spacing-base));
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: justify;
-}
-footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > h1 {
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 30px;
-    color: var(--color-neutral-600);
-    font-family: var(--font-family);
-}
-footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > h1 > strong {}
-footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > p {
-    text-align: justify;
-    line-height: 30px;
-}
-footer > div.footer-carousel > div.footer-section-06 > div.heading-text-info > div > p > a {
-    color: var(--color-secondary-500);
+    background-color: red;
 }
 
-footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 2.17;
-    margin-top: calc(4 * var(--spacing-base));
-    cursor: pointer;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: var(--color-button-secondary);
-    position: absolute;
-    margin-top: -51px;
-}
-footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > p > strong {
-    color: var(--color-secondary-500);
-}
-footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > p > strong > a {
-    color: var(--color-secondary-500);
-}
-footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > span {}
-footer > div.footer-carousel > div.footer-section-06 > div.more-info-seo-digi > span > svg {
-    width: 18px;
-    height: 18px;
-    fill: var(--color-icon-secondary);
-    vertical-align: middle;
-}
+
+
+
+
+
 
 
 footer > div.footer-carousel > div.footer-section-06 > div.permissions {
